@@ -14,6 +14,6 @@ DIB_PARTITIONING_SFDISK_SCHEMA
   : Description: A multi-line string specifying a disk schema in sectors.
   : Example: ``DIB_PARTITIONING_SFDISK_SCHEMA="
     2048,10000,L *
-    10248,,L
+    12048,,L
     0 0;
     " will create two partitions on disk, first one will be bootable.
